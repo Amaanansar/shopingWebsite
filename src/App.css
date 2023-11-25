@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+/* body{
+  overflow: hidden;
+} */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.card img{
+  aspect-ratio: 16/9;
+  /* object-fit: contain; */
+}
+.navbar-expand-lg{
+  background-color: #131921 !important;
+}
+.secondNavbar{
+  background-color:#232F3E !important;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: start;
+  height: 30px;
+}
+.App-link {
+  color: #61dafb;
+}
+.navbar-nav li {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.navbar-nav li:hover {
+  border: 1px solid white ;
+  border-radius: 5px;
+}
+.navbar-toggler{
+  background: white;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mainBodyGrids{
+  grid-template-columns: auto auto;
+}
+li p {
+  cursor: pointer;
+}
+
+.cardScrollData::-webkit-scrollbar {
+  width: 10px !important;
+}
+.cardScrollData::-webkit-scrollbar-thumb {
+  background: rgb(221, 221, 221) !important;
+  border-radius: 5px !important;
+}
+.stockimg{
+  width:50%;
+  margin: 0 auto;
+}
+
+.prod-feature div{
+  text-align: center;
+  margin: auto;
+}

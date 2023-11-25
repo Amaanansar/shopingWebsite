@@ -1,0 +1,39 @@
+@media  (max-width: 1550px) and (min-width: 1310px) {
+    .card{
+        min-width: 200px !important;
+        width: 18.5vw !important;
+        flex-direction: column !important;
+    }
+}
+@media  (max-width: 1301px) and (min-width: 1060px) {
+    .card{
+        min-width: 200px !important;
+        width: 22.4vw  !important;
+        flex-direction: column !important;
+    }
+}
+@media  (max-width: 1060px) and (min-width: 810px) {
+    .card{
+        min-width: 200px !important;
+        width: 29.5vw  !important;
+        flex-direction: column !important;
+    }
+}
+@media  (max-width: 810px) and (min-width: 610px) {
+    .card{
+        min-width: 47% !important;
+        width: 48% !important;
+        flex-direction: column !important;
+    }
+}
+@media  (max-width: 610px) {
+    .card{
+        min-width: 47% !important;
+        width: 100% !important;
+        display: flex;
+        flex-direction: unset;
+    }
+    .card-img-top{
+        width: 12vh;
+    }
+}
